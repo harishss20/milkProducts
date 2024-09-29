@@ -4,7 +4,7 @@
   "description": "E-commerce application for product catalog",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run build && concurrently \"npm run server\" \"npm run client\"",
     "server": "cd Server && npm install && nodemon main.js",
     "client": "cd client && npm install && npm start",
     "build": "cd client && npm run build"
