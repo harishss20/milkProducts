@@ -2,7 +2,7 @@ import express from "express";
 import connectDb from "./lib/db.js";
 import eRouter from "./routers/ecom.routers.js";
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 //db connection
 connectDb();

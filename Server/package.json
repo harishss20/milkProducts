@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "Server",
   "version": "1.0.0",
   "description": "Server-side API for e-commerce application",
   "main": "main.js",
