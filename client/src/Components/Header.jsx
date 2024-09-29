@@ -20,10 +20,8 @@ const Header = () => {
 
           <div className="flex items-center gap-4">
             <button
-              className="rounded-md bg-thick-blue px-4 py-2 text-sm text-white shadow-md hover:bg-teal-700 transition font-bold"
-              onClick={() => {
-                /* Add your request action */
-              }}
+              className="rounded-md bg-thick-blue px-4 py-2 text-sm text-white shadow-md hover:bg-white hover:text-thick-blue transition font-bold"
+              onClick={() => {}}
             >
               Request
             </button>
